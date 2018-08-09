@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    tools:context=".imagebth">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
+
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:id="@+id/toolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="?attr/actionBarSize"-->
+            <!--android:background="?attr/colorPrimary"-->
+            <!--app:popupTheme="@style/AppTheme.PopupOverlay"-->
+            <!--/>-->
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_imagebth" />
+
+    <!--<android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose your mood"
+        android:id="@+id/choose"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/happpy27"
+        android:id="@+id/happiness"
+        android:layout_below="@id/choose"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sad27"
+        android:id="@+id/sadness"
+        android:layout_below="@id/choose"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bored27"
+        android:id="@+id/boredom"
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_below="@id/happiness"
+
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ang27"
+        android:id="@+id/anger"
+
+        android:layout_below="@id/happiness"
+        android:layout_marginRight="35dp"
+        android:layout_alignParentRight="true"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fear27"
+        android:id="@+id/fear"
+        android:layout_below="@id/boredom"
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/neu27"
+        android:id="@+id/neutral"
+        android:layout_below="@id/boredom"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp"
+        />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Proceed"
+        android:background="@drawable/btnshape"
+        android:layout_below="@id/neutral"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/proceed"
+        />
+</RelativeLayout>

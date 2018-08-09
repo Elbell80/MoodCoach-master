@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "680851284341",
+    "firebase_url": "https://moodcoach-master.firebaseio.com",
+    "project_id": "moodcoach-master",
+    "storage_bucket": "moodcoach-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680851284341:android:2fcabc5ddc26170a",
+        "android_client_info": {
+          "package_name": "com.example.astha.moodcoach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680851284341-t56ale1oemaf0a9eu1odptmmjv0arh4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsWJ5oh_kShjVg1Swty-X3B-kazp5_yE8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
